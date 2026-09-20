@@ -1,0 +1,8 @@
+RESTART
+UNITS LENGTH=A Energy=kcal/mol
+phi: TORSION ATOMS=5,7,9,15
+psi: TORSION ATOMS=7,9,15,17
+
+
+PRINT ARG=phi,psi FILE=cv.txt STRIDE=1
+

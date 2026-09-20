@@ -1,0 +1,26 @@
+phi: TORSION ATOMS=5,7,9,15
+ DEEPIBP ...
+  LABEL=deepibp
+  ARG=phi
+  PACE=200
+  SUBNN
+  HEIGHT_SUB=0
+  SIGMA_SUB=0
+  N_Fourier_series=5
+  N_sub=7
+  GRID_BIN=200
+  GRID_MAX=pi
+  GRID_MIN=-pi
+  TEMP=300
+  FILE=HILLS
+  NN
+  POINT_GRID=200
+  ACTIVATION=RELU
+  NODES=5,4
+  EPOCH=10000
+  OPTIM=ADAM
+  LRATE=0.001
+
+ ...
+
+ 
